@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+<form action="https://www.wikipedia.org">
+	<!-- Name -->
+<LABEL for="first-name">First Name:</LABEL>
+<input name = "first" id="first-name", type="text" placeholder="Hermione" required>
+<LABEL for="last-name">Last Name:</LABEL>
+<input name ="last id="last-name" type="text" placeholder ="Granger" required>
+<!-- Sex -->
+<div>
+	<Label for="male">Male</Label>
+	<input name="gender" type="radio" id="male"  value="Male">
+	<LABEL for="female">Female</LABEL>
+	<input name="gender" type="radio" id="female" value="Female">
+	<LABEL for="other">Other</LABEL>
+	<input name="gender" type="radio" id="other" value="other">
+</div>
+
+<!--Email-->
+<div>
+	<LABEL>Email:
+		<input name="email", type="email" required="" placeholder="Your email">
+	</LABEL>	
+	<LABEL>Password:
+		<input name="password" type="password" required="" pattern=".{5,10}" title="5 to 10 characters">
+	</LABEL>
+	
+</div>
+<div>
+<label>Birthday</label>
+<select name="Month" >
+	<option>Month</option>
+	<option value="Jan">Jan</option>
+	<option value="Feb">Feb</option>
+	<option value="Mar">Mar</option>
+</select>
+<select name="Day" >
+	<option>Day</option>
+	<option >1</option>
+	<option >2</option>
+	<option >3</option>
+</select>
+<select name="Year" >
+		<option>year</option>
+	<option >2000</option>
+	<option >1992</option>
+	<option >1997</option>
+</select>
+<label>I agree to the terms and conditions</label>
+</div>
+<input type="checkbox" name="">
+<input type="submit">
+</form>
+</body>
+</html>
