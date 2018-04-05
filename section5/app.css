@@ -1,0 +1,22 @@
+h1 {
+	color:rgba(0, 200, 100, 0.8);
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+
+	/*border: 2px dashed rgb(255, 100, 80);*/
+}
+li {
+	color:#4B0082;
+}
+h4{
+	background: rgb(255, 100, 80);
+	color: #FF1493;
+}
+
+body{
+	background: pink:;
+	/*background: url(https://i.ytimg.com/vi/Y8xk1jRmMnA/maxresdefault.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;*/
+}
