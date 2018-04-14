@@ -1,3 +1,3 @@
-##Section 6
+## Section 6
 
 Intermediate CSS
